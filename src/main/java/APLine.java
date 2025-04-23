@@ -13,8 +13,9 @@ public double getSlope(int a,int b){
 public boolean isOnLine(int x,int y){
 if((a1*x)+(y*b1)+c1==0){
 return true;
-  else
-  return false;
 }
+  else 
+  return false;
+
 }
 }
