@@ -7,8 +7,7 @@ a1=a;
   c1=c;
 }
 public double getSlope(int a,int b){
-double value=(double)-a/b;
-return value;
+  return (double)-a/b;;
 }
 public boolean isOnLine(int x,int y,){
 if(a1*x)+(y*b1)+c1==0){
